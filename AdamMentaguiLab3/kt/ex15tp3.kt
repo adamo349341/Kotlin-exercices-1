@@ -1,5 +1,5 @@
 package tp2
-//creating the generaice that ha s apair
+//creating the generic that ha s apair
 class  CustomPair<T, U>(val first: T,val  second: U){
     //function that displays two pairs
     fun display(){
@@ -14,5 +14,6 @@ fun main(){
     //calling function display() for each generic class object
     pair1.display()
     pair2.display()
+
 
 }
